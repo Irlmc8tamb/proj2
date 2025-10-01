@@ -1,14 +1,13 @@
-
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import { CartProvider } from './context/CartContext';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import ProductDetailPage from './pages/ProductDetailPage';
-import CartPage from './pages/CartPage';
-import CheckoutPage from './pages/CheckoutPage';
-import OrderSuccessPage from './pages/OrderSuccessPage';
+import { CartProvider } from './context/CartContext.tsx';
+import Header from './components/Header.tsx';
+import Footer from './components/Footer.tsx';
+import HomePage from './pages/HomePage.tsx';
+import ProductDetailPage from './pages/ProductDetailPage.tsx';
+import CartPage from './pages/CartPage.tsx';
+import CheckoutPage from './pages/CheckoutPage.tsx';
+import OrderSuccessPage from './pages/OrderSuccessPage.tsx';
 
 const App: React.FC = () => {
     return (

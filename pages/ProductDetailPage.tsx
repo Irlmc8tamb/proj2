@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { PRODUCTS } from '../constants';
-import { useCart } from '../hooks/useCart';
+import { PRODUCTS } from '../constants.ts';
+import { useCart } from '../hooks/useCart.ts';
 
 const ProductDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();

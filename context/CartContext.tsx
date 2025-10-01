@@ -1,6 +1,5 @@
-
 import React, { createContext, useReducer, ReactNode, Dispatch } from 'react';
-import { CartItem, Product } from '../types';
+import { CartItem, Product } from '../types.ts';
 
 type CartState = {
   items: CartItem[];
